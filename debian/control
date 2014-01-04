@@ -1,5 +1,5 @@
 Source: ptux-sdk-hdseriesx
-Section: unknown
+Section: devel
 Priority: extra
 Maintainer: Ryan Kuester <rkuester@insymbols.com>
 Build-Depends: debhelper (>= 8.0.0)
@@ -7,6 +7,8 @@ Standards-Version: 3.9.3
 
 Package: ptux-sdk-hdseriesx
 Architecture: all
-Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends:
+ ptux-sdk-amd64,
+ ${misc:Depends}
+Description: Pragmatux SDK (hdseriesx)
+ The Pragmatux SDK for the Hatteland Series X displays.
